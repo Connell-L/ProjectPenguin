@@ -1,0 +1,8 @@
+/* General Styles */
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+  min-height: 100vh;
+}
