@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css" />
 
     <!-- Bootstrap and FontAwesome cdn links -->
     <link
@@ -21,12 +22,12 @@
     />
 
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/quiz.css" />
+
   </head>
   <body>
     <!--Navigation Section-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="./index.html">Penguin Quizzes</a>
+      <a class="navbar-brand" href="./index.html">Team Penguin</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse">
         <span class="navbar-toggler-icon"></span>
@@ -41,14 +42,14 @@
           <li></li>
 
           <li class="nav-item">
-            <a class="nav-link" href="./quiz.html">Quiz</a>
+            <a class="nav-link" href="./quiz.html">Penguin Quiz</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- End of Navigation section -->
 
-    <div class="card">
+    <!-- <div class="card">
       <h5 class="card-header">Featured</h5>
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
@@ -57,7 +58,7 @@
         </p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
-    </div>
+    </div> -->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -74,5 +75,18 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <!--Penguin Quiz HTML Segment-->
+    <h1>Play Our Penguin Quiz!</h1>
+    <div class="quiz-container">
+      <div id="quiz"></div>
+    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+
+    
+    <script src="./script.js"></script>
   </body>
 </html>
